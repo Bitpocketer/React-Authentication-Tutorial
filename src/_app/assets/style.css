@@ -1,0 +1,97 @@
+input[type=text],select{
+    width:100%;
+    padding:12px;
+     margin:20px,12px;  
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    
+
+}
+h1{
+padding:10px 0px 0px 10px;
+}
+
+input[type=submit]{
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding:14px 12px 14px 10px;
+    margin: 18px 0x;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+input[type=email]{
+    width:100%;
+    padding:12px;
+   margin:18px,12px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+input[type=password]{
+    width:100%;
+    padding:12px;
+    margin:18px,12px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+#myform{
+border-radius: 5px;
+padding:10px;
+border:1px solid #ccc;
+margin: 10px 20px;
+}
+.Menu{
+    padding:10px;
+    border :1px solid #ccc;
+    background-color: #ccc
+}
+.items-list{
+    padding:10px;
+    border-radius: 4px;
+    border:1px solid #eee;
+
+}
+.items-list ul li{
+    padding:20px 150px;
+    display:inline-block;
+    margin: 20px;
+    background-color: #cc5342;
+    color:white;
+}
+ul li:hover{
+    background-color: #4CAF50;
+    color:white;
+    cursor: pointer;
+}
+.left-sidebar{
+    border:1px solid #ccc;
+  
+    background-color: floralwhite;
+width: 200px;
+    margin: 90px 0px ;
+
+
+}
+.left-sidebar ul li{
+    
+    background-color: #cc5342;
+    width: 90px;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    color: white;
+    display: block;
+}
+.left-sidebar ul li:hover{
+    background-color: #4CAF50;
+    cursor: pointer;
+}

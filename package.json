@@ -1,0 +1,17 @@
+{
+  "name": "learningreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline  --hot --port 5400 --history-api-fallback"
+  },
+  "author": "jawad",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
